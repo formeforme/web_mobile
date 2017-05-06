@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [QE ACA First Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Test.HBBusinessTest.HBBusinessPageTest">
+        <methods>
+          <include name="validateCreateWorks"/>
+          <include name="validateEditWorks"/>
+          <include name="validateDeleteWorks"/>
+          <include name="validateOpenWorks"/>
+          <include name="start"/>
+          <include name="finish"/>
+          <include name="validateSearchWorks"/>
+          <include name="prepare"/>
+          <include name="validateRightEditPageOpened"/>
+        </methods>
+      </class> <!-- Test.HBBusinessTest.HBBusinessPageTest -->
+      <class name="Test.CategoriesTest.CategoriesPageTest">
+        <methods>
+          <include name="validateAddWorks"/>
+          <include name="validateOpenWorks"/>
+          <include name="validateEditWorks"/>
+          <include name="start"/>
+          <include name="finish"/>
+          <include name="validateSearchWorks"/>
+          <include name="validateRightEditPageOpened"/>
+          <include name="prepare"/>
+        </methods>
+      </class> <!-- Test.CategoriesTest.CategoriesPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [QE ACA First Suite] -->

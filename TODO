@@ -1,0 +1,40 @@
+-WindowHandler/switchTo/navigateTo
+-WebDriverWait
+-@BeforeClass
+
+-if list.size()==0 vs Assert(get(0))
+
+
+---------------
+-rechange after edit
+-image upload,wait in one function
+-delete buttons
+-image one/list
+-delete all after test
+-sliderImage list
+-menu elements one by one
+-find element by text
+
+   /* public boolean checkForBrokenImages() {
+        for(WebElement image:imageField){
+            try {
+                System.out.println("__________"+image.getAttribute("src"));
+                return isLinkBroken(new URL(image.getAttribute("src")));
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            }
+        }
+        return false;
+    }
+    private boolean isLinkBroken(URL url){
+        String response;
+        try {
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            connection.connect();
+            response = connection.getResponseMessage();
+            connection.disconnect();
+            return true;
+        } catch(Exception exp) {
+            return false;
+        }
+    }*/

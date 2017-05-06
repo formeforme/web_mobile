@@ -1,0 +1,20 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="QE ACA First Suite" configfailurepolicy="continue"
+    verbose="9">
+  <test name="Test" preserve-order="true" parallel="none">
+    <classes>
+      <class name="Test.BaseTest.BaseTest"/>
+      <class name="Test.FirstPage.FirstPageTest" />
+      <class name="Test.HomePage.HomePageTest" />
+      <class name="Test.CharitiesTest.CharitiesPageTest" />
+      <class name="Test.ScratchAndWinTest.ScratchAndWinPageTest"/>
+      <class name="Test.CategoriesTest.CategoriesPageTest" />
+      <class name="Test.HBBusinessTest.HBBusinessPageTest"/>
+      <class name="Test.SubCategoriesTest.SubCategoryPageTest"/>
+      <class name="Test.JoinUs.JoinUsTest"/>
+      <class name="Test.LoginTest.LoginPageTest" />
+    </classes>
+  </test>
+  </suite>

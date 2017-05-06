@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-QE_ACA_First_Suite">
+              <span class="suite-name border-passed">QE ACA First Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-QE_ACA_First_Suite">
+                    <span>aca-testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-QE_ACA_First_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-QE_ACA_First_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-QE_ACA_First_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-QE_ACA_First_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-QE_ACA_First_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-QE_ACA_First_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-QE_ACA_First_Suite" class="hide-methods passed suite-QE_ACA_First_Suite"> (hide)</a> <!-- hide-methods passed suite-QE_ACA_First_Suite -->
+                      <a href="#" panel-name="suite-QE_ACA_First_Suite" class="show-methods passed suite-QE_ACA_First_Suite"> (show)</a> <!-- show-methods passed suite-QE_ACA_First_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-QE_ACA_First_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QE_ACA_First_Suite" title="Test.LoginTest.LoginPageTest" hash-for-method="validateFieldCheckIsDone(Pages.Login.User@51fadaff)">validateFieldCheckIsDone(Pages.Login.User@51fadaff)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QE_ACA_First_Suite" title="Test.LoginTest.LoginPageTest" hash-for-method="validateFieldCheckIsDone(Test.LoginTest.LoginPageData$4@5b6ec132)">validateFieldCheckIsDone(Test.LoginTest.LoginPageData$4@5b6ec132)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QE_ACA_First_Suite" title="Test.LoginTest.LoginPageTest" hash-for-method="validateFieldCheckIsDone(Test.LoginTest.LoginPageData$3@31ff43be)">validateFieldCheckIsDone(Test.LoginTest.LoginPageData$3@31ff43be)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QE_ACA_First_Suite" title="Test.LoginTest.LoginPageTest" hash-for-method="validateFieldCheckIsDone(Test.LoginTest.LoginPageData$2@401f7633)">validateFieldCheckIsDone(Test.LoginTest.LoginPageData$2@401f7633)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QE_ACA_First_Suite" title="Test.LoginTest.LoginPageTest" hash-for-method="validateLoginWorks(Test.LoginTest.LoginPageData$1@5c44c582)">validateLoginWorks(Test.LoginTest.LoginPageData$1@5c44c582)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-QE_ACA_First_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-QE_ACA_First_Suite" class="panel QE_ACA_First_Suite">
+          <div class="suite-QE_ACA_First_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.LoginTest.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFieldCheckIsDone(Pages.Login.User@51fadaff)">
+                  </a> <!-- validateFieldCheckIsDone(Pages.Login.User@51fadaff) -->
+                  <span class="method-name">validateFieldCheckIsDone</span>
+                  <span class="parameters">(Pages.Login.User@51fadaff)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFieldCheckIsDone(Test.LoginTest.LoginPageData$4@5b6ec132)">
+                  </a> <!-- validateFieldCheckIsDone(Test.LoginTest.LoginPageData$4@5b6ec132) -->
+                  <span class="method-name">validateFieldCheckIsDone</span>
+                  <span class="parameters">(Test.LoginTest.LoginPageData$4@5b6ec132)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFieldCheckIsDone(Test.LoginTest.LoginPageData$3@31ff43be)">
+                  </a> <!-- validateFieldCheckIsDone(Test.LoginTest.LoginPageData$3@31ff43be) -->
+                  <span class="method-name">validateFieldCheckIsDone</span>
+                  <span class="parameters">(Test.LoginTest.LoginPageData$3@31ff43be)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFieldCheckIsDone(Test.LoginTest.LoginPageData$2@401f7633)">
+                  </a> <!-- validateFieldCheckIsDone(Test.LoginTest.LoginPageData$2@401f7633) -->
+                  <span class="method-name">validateFieldCheckIsDone</span>
+                  <span class="parameters">(Test.LoginTest.LoginPageData$2@401f7633)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginWorks(Test.LoginTest.LoginPageData$1@5c44c582)">
+                  </a> <!-- validateLoginWorks(Test.LoginTest.LoginPageData$1@5c44c582) -->
+                  <span class="method-name">validateLoginWorks</span>
+                  <span class="parameters">(Test.LoginTest.LoginPageData$1@5c44c582)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QE_ACA_First_Suite-class-passed -->
+        </div> <!-- panel QE_ACA_First_Suite -->
+        <div panel-name="test-xml-QE_ACA_First_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/home/liana/Desktop/local_hbao/selenium/src/test/resources/aca-testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite configfailurepolicy=&quot;continue&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;QE ACA First Suite&quot;&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.BaseTest.BaseTest&quot;/&gt;
+      &lt;class name=&quot;Test.LoginTest.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- QE ACA First Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-QE_ACA_First_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for QE ACA First Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-QE_ACA_First_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for QE ACA First Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-QE_ACA_First_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for QE ACA First Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_QE_ACA_First_Suite');
+function tableData_QE_ACA_First_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validateLoginWorks')
+data.setCell(0, 2, 'Test.LoginTest.LoginPageTest')
+data.setCell(0, 3, 1871);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateFieldCheckIsDone')
+data.setCell(1, 2, 'Test.LoginTest.LoginPageTest')
+data.setCell(1, 3, 1554);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateFieldCheckIsDone')
+data.setCell(2, 2, 'Test.LoginTest.LoginPageTest')
+data.setCell(2, 3, 1390);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateFieldCheckIsDone')
+data.setCell(3, 2, 'Test.LoginTest.LoginPageTest')
+data.setCell(3, 3, 1367);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateFieldCheckIsDone')
+data.setCell(4, 2, 'Test.LoginTest.LoginPageTest')
+data.setCell(4, 3, 1355);
+window.suiteTableData['QE_ACA_First_Suite']= { tableData: data, tableDiv: 'times-div-QE_ACA_First_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <div id="times-div-QE_ACA_First_Suite">
+              </div> <!-- times-div-QE_ACA_First_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-QE_ACA_First_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for QE ACA First Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-QE_ACA_First_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-QE_ACA_First_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.LoginTest.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">prepare</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">29 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateFieldCheckIsDone(Pages.Login.User@51fadaff)</span>
+                <span class="method-start">8523 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">finish</span>
+                <span class="method-start">9878 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">9970 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateFieldCheckIsDone(Test.LoginTest.LoginPageData$2@401f7633)</span>
+                <span class="method-start">14796 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">finish</span>
+                <span class="method-start">16186 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">16274 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateFieldCheckIsDone(Test.LoginTest.LoginPageData$3@31ff43be)</span>
+                <span class="method-start">20659 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">finish</span>
+                <span class="method-start">22213 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">22291 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateFieldCheckIsDone(Test.LoginTest.LoginPageData$4@5b6ec132)</span>
+                <span class="method-start">26721 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">finish</span>
+                <span class="method-start">28088 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">start</span>
+                <span class="method-start">28170 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLoginWorks(Test.LoginTest.LoginPageData$1@5c44c582)</span>
+                <span class="method-start">32632 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">finish</span>
+                <span class="method-start">34503 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

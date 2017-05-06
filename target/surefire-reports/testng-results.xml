@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="QE ACA First Suite" duration-ms="34591" started-at="2017-05-06T16:06:21Z" finished-at="2017-05-06T16:06:56Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="34591" started-at="2017-05-06T16:06:21Z" finished-at="2017-05-06T16:06:56Z">
+      <class name="Test.LoginTest.LoginPageTest">
+        <test-method status="PASS" signature="prepare()[pri:0, instance:Test.LoginTest.LoginPageTest@2ef9b8bc]" name="prepare" is-config="true" duration-ms="12" started-at="2017-05-06T20:06:21Z" finished-at="2017-05-06T20:06:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepare -->
+        <test-method status="PASS" signature="start()[pri:0, instance:Test.LoginTest.LoginPageTest@2ef9b8bc]" name="start" is-config="true" duration-ms="8494" started-at="2017-05-06T20:06:21Z" finished-at="2017-05-06T20:06:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="validateFieldCheckIsDone(Pages.Login.User)[pri:0, instance:Test.LoginTest.LoginPageTest@2ef9b8bc]" name="validateFieldCheckIsDone" duration-ms="1355" started-at="2017-05-06T20:06:30Z" data-provider="NTData" finished-at="2017-05-06T20:06:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pages.Login.User@51fadaff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFieldCheckIsDone -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:Test.LoginTest.LoginPageTest@2ef9b8bc]" name="finish" is-config="true" duration-ms="92" started-at="2017-05-06T20:06:31Z" finished-at="2017-05-06T20:06:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+        <test-method status="PASS" signature="start()[pri:0, instance:Test.LoginTest.LoginPageTest@2ef9b8bc]" name="start" is-config="true" duration-ms="4825" started-at="2017-05-06T20:06:31Z" finished-at="2017-05-06T20:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="validateFieldCheckIsDone(Pages.Login.User)[pri:0, instance:Test.LoginTest.LoginPageTest@2ef9b8bc]" name="validateFieldCheckIsDone" duration-ms="1390" started-at="2017-05-06T20:06:36Z" data-provider="NTData" finished-at="2017-05-06T20:06:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test.LoginTest.LoginPageData$2@401f7633]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFieldCheckIsDone -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:Test.LoginTest.LoginPageTest@2ef9b8bc]" name="finish" is-config="true" duration-ms="88" started-at="2017-05-06T20:06:37Z" finished-at="2017-05-06T20:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+        <test-method status="PASS" signature="start()[pri:0, instance:Test.LoginTest.LoginPageTest@2ef9b8bc]" name="start" is-config="true" duration-ms="4385" started-at="2017-05-06T20:06:37Z" finished-at="2017-05-06T20:06:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="validateFieldCheckIsDone(Pages.Login.User)[pri:0, instance:Test.LoginTest.LoginPageTest@2ef9b8bc]" name="validateFieldCheckIsDone" duration-ms="1554" started-at="2017-05-06T20:06:42Z" data-provider="NTData" finished-at="2017-05-06T20:06:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test.LoginTest.LoginPageData$3@31ff43be]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFieldCheckIsDone -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:Test.LoginTest.LoginPageTest@2ef9b8bc]" name="finish" is-config="true" duration-ms="78" started-at="2017-05-06T20:06:43Z" finished-at="2017-05-06T20:06:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+        <test-method status="PASS" signature="start()[pri:0, instance:Test.LoginTest.LoginPageTest@2ef9b8bc]" name="start" is-config="true" duration-ms="4430" started-at="2017-05-06T20:06:43Z" finished-at="2017-05-06T20:06:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="validateFieldCheckIsDone(Pages.Login.User)[pri:0, instance:Test.LoginTest.LoginPageTest@2ef9b8bc]" name="validateFieldCheckIsDone" duration-ms="1367" started-at="2017-05-06T20:06:48Z" data-provider="NTData" finished-at="2017-05-06T20:06:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test.LoginTest.LoginPageData$4@5b6ec132]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFieldCheckIsDone -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:Test.LoginTest.LoginPageTest@2ef9b8bc]" name="finish" is-config="true" duration-ms="81" started-at="2017-05-06T20:06:49Z" finished-at="2017-05-06T20:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+        <test-method status="PASS" signature="start()[pri:0, instance:Test.LoginTest.LoginPageTest@2ef9b8bc]" name="start" is-config="true" duration-ms="4462" started-at="2017-05-06T20:06:49Z" finished-at="2017-05-06T20:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="validateLoginWorks(Pages.Login.User)[pri:0, instance:Test.LoginTest.LoginPageTest@2ef9b8bc]" name="validateLoginWorks" duration-ms="1871" started-at="2017-05-06T20:06:54Z" data-provider="PTData" finished-at="2017-05-06T20:06:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test.LoginTest.LoginPageData$1@5c44c582]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginWorks -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:Test.LoginTest.LoginPageTest@2ef9b8bc]" name="finish" is-config="true" duration-ms="77" started-at="2017-05-06T20:06:56Z" finished-at="2017-05-06T20:06:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- Test.LoginTest.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- QE ACA First Suite -->
+</testng-results>
